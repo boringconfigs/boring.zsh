@@ -7,7 +7,7 @@ install:
 
 configure:
 	stow . --target="${HOME}"
-	@if [ ! -e "${HOME}/.zshrc.local" ]; then \
-		cp ".zshrc.local" "${HOME}/.zshrc.local"; \
+	@if [ ! -e "${HOME}/.zshrc" ]; then \
+		cp ".zshrc" "${HOME}/.zshrc"; \
 	fi
 
