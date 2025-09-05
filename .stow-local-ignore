@@ -1,6 +1,5 @@
 \.git
 \.gitignore
-\.prettierrc.json
 \.zshrc
 Brewfile
 Makefile
