@@ -91,6 +91,6 @@ source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # FZF
 source <(fzf --zsh)
-# Skip Mac folders to avoid permission prompts
-export FZF_DEFAULT_OPTS="--walker-skip .git,node_modules,target,build"
+# Skip Mac folders to avoid full disk access prompts
+export FZF_DEFAULT_OPTS="--walker-skip .git,node_modules,target,build,Library"
 
