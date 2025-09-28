@@ -2,6 +2,7 @@
 \.gitignore
 Brewfile
 Makefile
+README\.md
 
 # Instead of stowing this we copy it to user home
 \.zshrc
