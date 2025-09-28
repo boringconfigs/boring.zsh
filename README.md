@@ -11,3 +11,6 @@ Opinionated, boring Zsh configuration.
 *   **Autosuggestions**: Suggests commands based on your history.
 *   **Fuzzy finding**: Integrates `fzf` for efficient file and history searching.
 
+## Installation
+
+You can find installation instructions from [here](https://github.com/boringconfigs/#installation).
